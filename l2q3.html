@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Bootstrap Example</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    </head>
+    
+    <body>
+        <div class="container">
+            <div class="jumbotron">
+                <div align="center">
+                    <h1><b>Welcome to your Homepage!</b><br></h1><br>
+
+                    <button type="button" class="btn btn-warning">What are you searching for today?</button><br/><br/>
+
+                    <input type="text" placeholder="I'm feeling curious!"><br><br>
+                </div>
+            </div>
+        </div>
+
+        <div class="container bg-secondary text-white">
+            <div class="row">
+
+
+                <div class="col">
+                    <div class="p-3 mb-2 bg-danger text-white">Dangerous Weather today!<br>
+                    </div><br><br><br>
+                    <button type="button" class="btn btn-primary">Tell me more</button>
+                </div>
+
+
+                <div style="border-left:1px solid #000;height:500px"></div>
+                <div class="col">
+                    <div class="p-3 mb-2 bg-info text-white">Latest Updates<br>
+                    </div></a><br><br><br><br>
+                    <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                        <label class="btn btn-success">
+                            <input type="radio" id="male" autocomplete="off" checked>Prev page
+                        </label>
+                        <label class="btn btn-success">
+                            <input type="radio" id="female" autocomplete="off"> New Page
+                        </label>
+                    </div>
+                </div>
+
+
+
+                <div style="border-left:1px solid #000;height:500px"></div>
+                <div class="col">
+                    <div class="p-3 mb-2 bg-warning text-dark">Enter Contest<br>
+                    </div><br><br><br><br>
+                    <div class="dropdown">
+                        <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
+                           Pick a category
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li>Lucky Draw</li>
+                            <li>Stars of Manipal</li>
+                        </ul>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </body>
+</html>
